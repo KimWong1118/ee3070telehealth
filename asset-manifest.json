@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ee3070telehealth/login/static/css/main.78e1bcb1.css",
+    "main.js": "/ee3070telehealth/login/static/js/main.78873648.js",
+    "index.html": "/ee3070telehealth/login/index.html",
+    "main.78e1bcb1.css.map": "/ee3070telehealth/login/static/css/main.78e1bcb1.css.map",
+    "main.78873648.js.map": "/ee3070telehealth/login/static/js/main.78873648.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78e1bcb1.css",
+    "static/js/main.78873648.js"
+  ]
+}
