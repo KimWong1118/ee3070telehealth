@@ -181,6 +181,7 @@ const Newdata = () => {
                                                         <span>
                                                             {datas[0].blood_pressure_low -
                                                                 datas[1].blood_pressure_low}
+                                                            {" mmHg"}
                                                         </span>
                                                     </>
                                                 ) : (
@@ -193,6 +194,7 @@ const Newdata = () => {
                                                         <span>
                                                             {datas[1].blood_pressure_low -
                                                                 datas[0].blood_pressure_low}
+                                                            {" mmHg"}
                                                         </span>
                                                     </>
                                                 )}
