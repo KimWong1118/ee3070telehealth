@@ -179,10 +179,8 @@ const Newdata = () => {
                                                             className="mb-1"
                                                         />
                                                         <span>
-                                                            {(
-                                                                datas[0].blood_pressure_low -
-                                                                datas[1].blood_pressure_low
-                                                            ).toFixed(2)}
+                                                            {datas[0].blood_pressure_low -
+                                                                datas[1].blood_pressure_low}
                                                         </span>
                                                     </>
                                                 ) : (
@@ -193,10 +191,8 @@ const Newdata = () => {
                                                             className="mb-1"
                                                         />
                                                         <span>
-                                                            {(
-                                                                datas[1].blood_pressure_low -
-                                                                datas[0].blood_pressure_low
-                                                            ).toFixed(2)}
+                                                            {datas[1].blood_pressure_low -
+                                                                datas[0].blood_pressure_low}
                                                         </span>
                                                     </>
                                                 )}
