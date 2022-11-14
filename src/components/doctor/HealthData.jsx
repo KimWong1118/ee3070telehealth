@@ -4,6 +4,9 @@ import { Accordion, Form } from "react-bootstrap";
 import DrEcg from "./DrEcg";
 
 const HealthData = (datas) => {
+    datas.datas.sort((a, b) => {
+        return new Date(b.created_time) - new Date(a.created_time);
+    });
     return (
         <div className="row">
             <Accordion>

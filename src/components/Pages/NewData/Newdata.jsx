@@ -364,11 +364,11 @@ const Newdata = () => {
                                         <Card.Title>Blood Pressure</Card.Title>
                                         <Card.Text>
                                             <p className="mt-4">
-                                                Systolic blood pressure:{" "}
+                                                Systolic blood pressure:{" mmHg"}
                                                 {datas[0].blood_pressure_high}
                                             </p>
                                             <p>
-                                                Diastolic blood pressure:{" "}
+                                                Diastolic blood pressure:{" mmHg"}
                                                 {datas[0].blood_pressure_low}
                                             </p>
                                         </Card.Text>
