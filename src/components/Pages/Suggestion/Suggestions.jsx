@@ -34,7 +34,7 @@ const Suggestions = () => {
             <CusNavbar username={location.state.username} />
             <div className="container">
                 <div className="row">
-                    <h2>Info</h2>
+                    <h2>Suggestion</h2>
                     <hr />
                 </div>
                 <div className="row">
