@@ -13,6 +13,7 @@ const DrEcg = ({ datas, grid }) => {
     });
     return objects.length > 0 ? (
         <div className="chart">
+            <h3 className="chartTitle">ECG</h3>
             <ResponsiveContainer width="100%" aspect={4 / 1}>
                 <LineChart data={objects}>
                     <Line dot={false} type="monotone" dataKey="value" stroke="#5550bd" />
