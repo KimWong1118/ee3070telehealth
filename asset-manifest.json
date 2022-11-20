@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ee3070telehealth/static/css/main.78e1bcb1.css",
-    "main.js": "/ee3070telehealth/static/js/main.0406cc01.js",
+    "main.js": "/ee3070telehealth/static/js/main.3e7eff7f.js",
     "index.html": "/ee3070telehealth/index.html",
     "main.78e1bcb1.css.map": "/ee3070telehealth/static/css/main.78e1bcb1.css.map",
-    "main.0406cc01.js.map": "/ee3070telehealth/static/js/main.0406cc01.js.map"
+    "main.3e7eff7f.js.map": "/ee3070telehealth/static/js/main.3e7eff7f.js.map"
   },
   "entrypoints": [
     "static/css/main.78e1bcb1.css",
-    "static/js/main.0406cc01.js"
+    "static/js/main.3e7eff7f.js"
   ]
 }
