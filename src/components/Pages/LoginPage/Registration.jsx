@@ -130,7 +130,8 @@ const Registration = () => {
                         );
                         result.then((data) => {
                             if (data == true) {
-                                navigate("/dashboard");
+                                alert("account created");
+                                navigate("/dashboard", { state: { username: username } });
                             }
                         });
                     }}
