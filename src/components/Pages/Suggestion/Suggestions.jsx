@@ -25,6 +25,7 @@ const Suggestions = () => {
             const response = getSuggestions(location.state.username);
             response.then((data) => {
                 setDatas(data);
+                console.log(data);
             });
         }
     }, []);
